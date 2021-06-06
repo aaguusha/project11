@@ -1,0 +1,51 @@
+.note{
+    width: 160px;
+    background-color: rgb(188, 242, 255);
+    margin: 10px;
+    position: relative;
+    min-height: 245px;
+}
+
+.text{
+    width: 130px;
+    height: 130px;
+    margin: 2px;
+    margin-bottom: 0px;
+    border:rgb(73, 73, 73) 1px solid;
+    border-radius: 10px;
+    resize:none;
+}
+.title{
+    width: 130px;
+    margin: 2px;
+    margin-top: 5px;
+    /* min-height: 29px; */
+    font-weight: bold;
+    font-size: 18px;
+    border:rgb(73, 73, 73) 1px solid;
+    border-radius: 8px;
+}
+
+#save-bn{
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+}
+
+.time{
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+#delete{
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+    padding-top: 0px;
+}
+
+#finish-note{
+    border:white 2px dotted;
+    border-radius: 8px;
+    background-color: rgb(188, 242, 255);
+}

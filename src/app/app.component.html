@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <!-- <button class="btn btn-primary" "> Добавить </button> -->
+    <div class="note">
+      <input type="text" class="title" placeholder=" Заголовок" [(ngModel)]="noteTitle">
+      <textarea name="text" class="text" placeholder=" Текст заметки" [(ngModel)]="noteText"></textarea>
+      <button class="btn btn-primary" id= "save-bn"(click)="addNote()" >Сохранить</button>
+    </div>
+  <!-- </div>
+</div> -->
+<!-- <div class="container">
+  <div class="row"> -->
+    <div class="note"   *ngFor="let item of noteArrObj; let i = index; ">
+      <input type="text" id="finish-note" class="title" value="{{item.name}}" readonly>
+      <textarea class="text"  id="finish-note" readonly>{{item.text}}</textarea>
+      <span class="time">{{item.time}}</span>
+      <button id="delete"class="btn btn-outline-danger" (click)="deleteNote(i)">Удалить</button>
+    </div>
+  </div>
+</div>
